@@ -1,0 +1,108 @@
+.dog{
+  background-image: url(../img/IZQUIERDA.webp);
+  height: 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+}
+.phone{
+  display: flex;
+  align-items: initial;
+  margin-top: 16px;
+  gap:10px;
+}
+
+.phone img{
+  height: 24px;
+}
+.phone a{
+  color:black;
+  text-decoration: none;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin-top: 16px;
+  margin-right: 32px;
+}
+.content ul.menu{
+  display: flex;
+  gap: 16px;
+  justify-content: end;
+}
+.content .menu li{
+  text-align: right;
+
+}
+.content .menu li a{
+  text-decoration: none;
+  color: black;
+  
+}
+.content .menu li{
+  list-style: none;
+ 
+}
+
+.content .phrase{
+  margin-top: 70px;
+  margin-bottom: 32px;
+}
+
+.content .phrase h3{
+  font-size:25px;
+  line-height: 30px;
+  margin: 0px;
+  
+}
+
+.content .phrase h1{
+ font-size:60px;
+ line-height: 70px;
+ margin: 5px 0px;  
+
+}
+.content .img_dogs{
+  display: flex;
+  gap: 20px;
+  padding: 0px;
+  margin-bottom: 32px;
+  justify-content: end;
+  
+}
+
+ul.img_dogs li{
+  list-style: none;
+}
+ul.img_dogs li img{
+  width: 130px;
+  padding: 2px;
+  border: 1px solid #000;
+
+}
+.content button{
+  float: right;
+  width: 120px;
+  background-color: #F5F5F5;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  justify-items: end;
+  user-select: none;
+  border: 2px solid transparent;
+}
+.social_media{
+  height:50px;
+  background:purple;
+  display:flex;
+  /* justify-content:space-between; */
+  align-items:center;
+  gap: 20px;
+  
+}
+
+.social_media svg{
+  width: 30px;
+}
